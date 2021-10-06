@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing snapshot snapshot for App component 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="d-flex justify-content-center align-items-center"
+  >
+    <h1
+      className="headingWeatherApp"
+    >
+      Weather App
+    </h1>
+  </header>
+  <div
+    className="container"
+  >
+    <div
+      className="mt-3 d-flex flex-column justify-content-center align-items-center"
+    >
+      <span>
+        <div
+          className="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+        >
+          <label
+            className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-standard MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled css-1c2i806-MuiFormLabel-root-MuiInputLabel-root"
+            data-shrink={true}
+            htmlFor="standard-basic"
+            id="standard-basic-label"
+          >
+            Enter Location
+          </label>
+          <div
+            className="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1480iag-MuiInputBase-root-MuiInput-root"
+            onClick={[Function]}
+          >
+            <input
+              aria-invalid={false}
+              autoFocus={false}
+              className="MuiInput-input MuiInputBase-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+              disabled={false}
+              id="standard-basic"
+              onAnimationStart={[Function]}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={false}
+              type="text"
+              value="Johannesburg"
+            />
+          </div>
+        </div>
+        <button
+          className="btn btn-primary mt-2"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-search"
+          />
+        </button>
+      </span>
+    </div>
+    <div
+      className="card mt-3 mx-auto"
+      style={
+        Object {
+          "height": "60vh",
+          "width": "60vw",
+        }
+      }
+    >
+      <h1
+        className="loading"
+      >
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-spinner fa-w-16 fa-spin "
+          data-icon="spinner"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+      </h1>
+    </div>
+  </div>
+</div>
+`;

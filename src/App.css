@@ -1,0 +1,52 @@
+/* removed the ability to select text on the app */
+.App {
+	user-select: none;
+}
+
+/* added a transparent background */
+.card {
+	background-color: rgba(255, 255, 255, 0.103) !important;
+}
+
+.headingWeatherApp {
+	font-size: 55px;
+	margin: 35px;
+	padding: 20px;
+	border: 5px solid;
+	border-radius: 5px;
+}
+
+.weather-icon {
+	padding-top: 50px;
+	width: 100px;
+}
+
+.divReadings {
+	padding-top: 100px;
+}
+
+/* centered loading icon */
+.loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+/* search icon */
+.fa-search {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* gave spacing between textfield and the search button */
+.btn {
+	margin-left: 20px;
+}
+
+/* References:
+
+https://www.w3.org/Style/Examples/007/center.en.html
+
+*/
